@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+.venv310/
+env/
+venv/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# VS Code
+.vscode/
+
+# Training logs
+logs/
+
+# Uploads
+uploads/*
+
+# Dataset (exclude large training data)
+chest_xray/
+test/
+train/
+val/
+
+# Archived files
+nofiles/
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# CSV reports
+*.csv
+
+# Documentation
+HOSTING_COMPARISON.md
+CUDA_DOWNGRADE_GUIDE.md
+QUICK_START.md
+
+# Training scripts (not needed for deployment)
+train_model.py
+evaluate_model.py
+colab_training.py
+check_gpu.py
+create_test_model.py
+
+# Setup scripts
+*.ps1
+
+# Jupyter notebooks
+*.ipynb
+
+# Procfile (for other platforms)
+Procfile
