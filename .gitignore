@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.venv310/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# TensorFlow / Model files (optional - keep model in repo)
+# model2result.keras
+
+# Training logs
+logs/
+*.log
+
+# Uploads folder
+uploads/*
+!uploads/.gitkeep
+
+# Dataset (too large for GitHub)
+chest_xray/
+
+# Archived files
+nofiles/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CSV reports
+*.csv
+
+# Temporary files
+*.tmp
+*.bak
